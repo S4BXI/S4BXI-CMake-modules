@@ -7,7 +7,7 @@ find_path(S4BXI_INCLUDE_DIR
 	PATHS ${S4BXI_PATH}/include /opt/s4bxi/include
 	)
 find_library(S4BXI_LIBRARY
-	NAMES s4bxi
+	NAMES s4bxi portals
 	PATHS ${S4BXI_PATH}/lib /opt/s4bxi/lib
 	)
 mark_as_advanced(S4BXI_INCLUDE_DIR)
